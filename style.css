@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0 15rem;
+    background-color: #EE2B76;
+    align-items: center;
+}
+
+#logo{
+    padding: .5rem;
+}
+
+main{
+    /* padding: 0 10rem; */
+    width: 100%;
+}
+
+/* ======================= Seção SMASAC =======================*/
+
+#smasac{
+
+    padding: 2.5rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF3EE;
+}
+
+#text{
+    width: 40%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#text h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #EE2B76;
+}
+
+#smasac img{
+    width: 50%;
+}
+
+
+/* ======================= Seção Impacto =======================*/
+
+#impacto{
+    padding: 2.5rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#impacto img{
+    width: 50%;
+}
+
+/* ======================= Seção Indicadores =======================*/
+
+#indicadores{
+    padding: 2.5rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF3EE;
+}
+
+#indicadores h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #EE2B76;
+}
