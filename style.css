@@ -113,6 +113,20 @@ main{
     
 }
 
+/* ======================= RODAPÉ =======================*/
+
+footer{
+    display: flex;
+    background-color: #FDB913;
+    padding: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    height: 6rem;
+}
+
 
 /* ======================= MOBILE =======================*/
 
