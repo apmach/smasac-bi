@@ -14,6 +14,10 @@ html {
     margin: 0;
 }
 
+h2,h3{
+    color: #EE2B76;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -45,14 +49,13 @@ main{
 
 #text{
     width: 40%;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 400;
 }
 
 #text h2{
     font-size: 32px;
     font-weight: 800;
-    color: #EE2B76;
 }
 
 #smasac img{
@@ -78,13 +81,29 @@ main{
 #indicadores{
     padding: 2.5rem 15rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
     background-color: #FFF3EE;
 }
+
+/* #indicadores h2,h3{
+    color: #EE2B76;
+} */
 
 #indicadores h2{
     font-size: 32px;
     font-weight: 800;
-    color: #EE2B76;
+}
+
+/* ======================= Seção Indicadores =======================*/
+
+#powerbi{
+    padding: 2.5rem 15rem;
+    display: flex;
+    align-items: center;
+}
+
+#powerbi h2{
+    font-size: 32px;
 }
